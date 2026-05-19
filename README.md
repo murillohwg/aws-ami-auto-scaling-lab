@@ -10,21 +10,7 @@ Hands-on AWS lab focused on building a scalable and highly available web applica
 
 The architecture spans two Availability Zones with public subnets hosting the Application Load Balancer and private subnets hosting the EC2 instances managed by the Auto Scaling Group.
 
-```
-Internet
-    │
-    ▼
-Application Load Balancer (Public Subnets)
-    │               │
-    ▼               ▼
-Private Subnet 1   Private Subnet 2
-(AZ-1)             (AZ-2)
-Lab Instance       Lab Instance
-    │               │
-    └───────────────┘
-      Auto Scaling Group
-      (min: 2 | desired: 2 | max: 6)
-```
+![Architecture](images/00-architecture.png)
 
 ---
 
