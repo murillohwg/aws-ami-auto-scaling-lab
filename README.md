@@ -1,0 +1,1 @@
+# aws-ami-auto-scaling-lab
