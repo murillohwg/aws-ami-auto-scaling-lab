@@ -10,20 +10,7 @@ The environment was designed to demonstrate scalable and highly available web ap
 
 # Architecture Security Model
 
-```
-Internet
-    │
-    ▼
-[Application Load Balancer]
-  Web Security Group
-  Public Subnets only
-    │               │
-    ▼               ▼
-[Private Subnet 1] [Private Subnet 2]
-  Lab Instance       Lab Instance
-  Web Security Group
-  (no direct internet access)
-```
+![Architecture](images/00-architecture.png)
 
 ---
 
