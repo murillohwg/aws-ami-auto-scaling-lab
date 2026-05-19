@@ -250,15 +250,3 @@ This lab demonstrates practical implementation of:
 - Centralized traffic management via Application Load Balancer
 
 ---
-
-# Final Considerations
-
-This architecture closely resembles real-world cloud deployments where:
-
-- Public-facing services are isolated behind managed load balancers
-- Compute resources remain private and non-directly accessible
-- Infrastructure scales automatically to handle demand
-- Monitoring and alarming enable proactive incident response
-- Standardized templates prevent configuration inconsistencies
-
-The lab provides a strong practical foundation for building scalable, resilient, and secure cloud applications on AWS using managed services.
